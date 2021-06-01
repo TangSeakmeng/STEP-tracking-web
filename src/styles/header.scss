@@ -1,0 +1,55 @@
+.headerContainer {
+    width: 100%;
+    padding: 10px 40px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    
+    background: rgba(255,255,255,0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+
+    box-shadow: 0px 0px 4px grey;
+
+    .logoContainer {
+        width: 150px;
+        height: auto;
+
+        img {
+            width: 100%;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .navElement {
+            border-radius: $border-radius;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: $black;
+            padding: 10px 20px;
+
+            &:hover {
+                color: white;
+                cursor: pointer;
+                transition: 0.5s;
+                background-color: $color1;
+            }            
+        }
+
+    }
+}

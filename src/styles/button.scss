@@ -1,0 +1,65 @@
+.btn {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+
+    &:hover {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.btnColor1 {
+    margin-right: 10px;
+    background-color: $color1;
+
+    &:hover {
+        background-color: darken($color: $color1, $amount: 10);
+    }
+}
+
+.btnColor2 {
+    margin-right: 10px;
+    background-color: $color2;
+
+    &:hover {
+        background-color: darken($color: $color2, $amount: 10);
+    }
+}
+
+.btnColor3 {
+    margin-right: 10px;
+    background-color: $color3;
+
+    &:hover {
+        background-color: darken($color: $color3, $amount: 10);
+    }
+}
+
+.btnColor4 {
+    margin-right: 10px;
+    background-color: $color4;
+
+    &:hover {
+        background-color: darken($color: $color4, $amount: 10);
+    }
+}
+
+.btnColor5 {
+    margin-right: 10px;
+    background-color: $color5;
+
+    &:hover {
+        background-color: darken($color: $color5, $amount: 10);
+    }
+}
+
+.groupActionButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -1,0 +1,80 @@
+.bigContainerWrapper {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.containerWrapper {
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.containerWrapper_dashboard {
+    width: 100%;
+    min-height: 100vh;
+    padding: 120px 40px 40px 40px;
+} 
+
+.notFoundPageContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerSpacer {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+
+.loginPageContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 120px 40px 40px 40px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/background/delivery.jpg');
+
+    display: flex;
+    justify-content: flex-end;
+
+    .loginFormContainer {
+        width: 600px;
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+
+        background: rgba(255,255,255,0.8);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 12px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.dashboardContainer {
+    width: 100%;
+
+    .dashboardHeader {
+        color: #333;
+        font-family: $primary-font;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,15 @@
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    .paginationElement {
+        color: white;
+        background-color: grey;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+}

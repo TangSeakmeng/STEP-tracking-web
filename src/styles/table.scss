@@ -1,0 +1,41 @@
+.tableContainer {
+    width: 100%;
+    margin-top: 20px;
+
+    table {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+
+        .tableHeader {
+            color: white;
+            background-color: $color4;
+
+            th {
+                font-size: 14px;
+                font-weight: normal;
+                text-align: left;
+                padding: 20px;
+            }
+        }
+
+        tr {
+            border-bottom: 1px solid rgb(231, 231, 231);
+
+            td {
+                font-size: 14px;
+                color: grey;
+                padding: 20px;  
+            }
+
+            &:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            &:hover:not(.tableHeader) {
+                cursor: pointer;
+                background-color: #ddd;
+            }
+        }
+    }
+}

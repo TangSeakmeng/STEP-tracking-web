@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$primary-font: 'Open Sans', sans-serif;
+
+$border-radius: 5px;
+
+$black: #333;
+$white: #f7f7f7;
+
+$color1: #fb8500;
+$color2: #ffb703;
+$color3: #023047;
+$color4: #219ebc;
+$color5: #8ecae6;
+
+$primary-color: #4D148C;
+$secondary-color: #FF6600;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $primary-font;
+    box-sizing: border-box;
+}
+
+.is-active {
+    color: white !important;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: $color1;
+}
+
+@import './container.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './alias.scss';
+@import './form.scss';
+@import './button.scss';
+@import './table.scss';
+@import './dialog.scss';
+@import './pagination.scss';
